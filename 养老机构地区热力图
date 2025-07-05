@@ -100,5 +100,5 @@ for _, row in df.iterrows():
 folium.LayerControl().add_to(m)
 
 # 保存地图
-m.save('shanghai_elderly_heatmap.html')
-print("地图已保存为 'shanghai_elderly_heatmap.html'")
+m.save('index.html')
+print("地图已保存为 'index.html'")
